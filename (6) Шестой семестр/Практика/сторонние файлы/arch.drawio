@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" version="24.7.6">
+  <diagram name="Page-1" id="1YH3Nc8drmEUSgxymiLr">
+    <mxGraphModel dx="3060" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w30t5G9RpSdMtJZUnow3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="w30t5G9RpSdMtJZUnow3-3" target="w30t5G9RpSdMtJZUnow3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="w30t5G9RpSdMtJZUnow3-3" target="w30t5G9RpSdMtJZUnow3-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1229" y="470" />
+              <mxPoint x="1761" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="w30t5G9RpSdMtJZUnow3-3" target="w30t5G9RpSdMtJZUnow3-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1229" y="470" />
+              <mxPoint x="721" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ir.ozone.ru/s3/multimedia-x/6526543161.jpg;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="159.99999999999994" width="238" height="251.33" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://healthily.com.au/wp-content/uploads/2020/02/Screen-Shot-2020-02-14-at-4.01.08-pm.png;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="910" width="420" height="296.8" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://healthily.com.au/wp-content/uploads/2020/02/Screen-Shot-2020-02-14-at-4.01.08-pm.png;" vertex="1" parent="1">
+          <mxGeometry x="1551" y="910" width="420" height="296.8" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://healthily.com.au/wp-content/uploads/2020/02/Screen-Shot-2020-02-14-at-4.01.08-pm.png;" vertex="1" parent="1">
+          <mxGeometry x="511" y="910" width="420" height="296.8" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="w30t5G9RpSdMtJZUnow3-10" target="w30t5G9RpSdMtJZUnow3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.onlinewebfonts.com/svg/download_569191.png;" vertex="1" parent="1">
+          <mxGeometry x="1614" y="520" width="294" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="w30t5G9RpSdMtJZUnow3-11" target="w30t5G9RpSdMtJZUnow3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.onlinewebfonts.com/svg/download_569191.png;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="520" width="294" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;" edge="1" parent="1" source="w30t5G9RpSdMtJZUnow3-12" target="w30t5G9RpSdMtJZUnow3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w30t5G9RpSdMtJZUnow3-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.onlinewebfonts.com/svg/download_569191.png;" vertex="1" parent="1">
+          <mxGeometry x="574" y="520" width="294" height="294" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
