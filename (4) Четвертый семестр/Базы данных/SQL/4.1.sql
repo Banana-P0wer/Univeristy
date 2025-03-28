@@ -1,0 +1,3 @@
+SELECT model, speed 
+FROM PC 
+WHERE price BETWEEN 40000 AND 65000; 
