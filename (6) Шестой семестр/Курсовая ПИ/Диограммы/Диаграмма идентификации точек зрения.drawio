@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" modified="2024-01-23T17:06:21.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="mg3pv-0CAfczhPjqSh6e" version="22.1.21" type="device">
+  <diagram name="Page-1" id="jma1WdQdkuPIGJw7cOEe">
+    <mxGraphModel dx="850" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IxEB4c8ntU9e33UkipOL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxEB4c8ntU9e33UkipOL-1" target="IxEB4c8ntU9e33UkipOL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxEB4c8ntU9e33UkipOL-1" target="IxEB4c8ntU9e33UkipOL-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="515" />
+              <mxPoint x="170" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxEB4c8ntU9e33UkipOL-1" target="IxEB4c8ntU9e33UkipOL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxEB4c8ntU9e33UkipOL-1" target="IxEB4c8ntU9e33UkipOL-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="515" />
+              <mxPoint x="620" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-1" value="Все точки зрения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-2" value="Кладовщик" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-3" value="Клиент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-4" value="Поставщик" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxEB4c8ntU9e33UkipOL-5" value="Директор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
