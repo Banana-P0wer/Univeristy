@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="..\PagesCss\7L.css">
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Apache</title>
+
+    <!-- Bootstrap reboot (для сброса стилей) -->
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<!-- Bootstrap сетка -->
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<!-- Шрифты с Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<!-- Стили сайта -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="body-wraper">
+       
+
+
+        <header class="header">
+            <a class="menu__link" href="..\Pages\2 лаба.HTML">
+                <img src="..\Picture\pngwing.com.png" class="text_img">
+            </a>
+            <div class="menuu">
+                <nav>
+                    <ul>
+                        <li><a href="#"> Главная &bigtriangledown;</a>
+                            <ul>
+                                <li><a href="..\Pages\Резюме.HTML">Главное резюме</a></li>
+                                <li ><a href="..\Pages\2 лаба.HTML">Резюме таблица</a></li>
+                                <li ><a href="..\6Laba\frameRes\РезюмеФрейм.html">Резюме фреймы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Фреймы &bigtriangledown;</a>
+                            <ul>
+                                <li><a href="..\6Laba\Home.html">Фреймы</a></li>
+                                <li><a href="..\6Laba\6Laba copy\Home.html">Фреймы таблица</a></li>
+                                <ul >
+                                    <li ><a href="#">JQuery</a></li>
+                                    <li ><a href="#">Node.js</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Формы &bigtriangledown;</a>
+                            <ul >
+                                <li ><a href="..\Pages\7 лаба.html">Анкета пользователя</a></li>
+                                <li ><a href="C:\Users\Сонечка\OneDrive\Рабочий стол\Все работы\Web\httpd-2.4.54-win64-VS16\Apache24\www\index.html">Web.сервер</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Таблицы &bigtriangledown;</a>
+                            <ul>
+                                <li ><a href="..\Pages\3 лаба.HTML">Таблица с картинкой</a></li>
+                                <li ><a href="..\Pages\птицы.HTML">Таблица с кошкой</a></li>
+                                <li><a href="..\Pages\4L.html">Несколько слов про HTML</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Графика &bigtriangledown;</a>
+                            <ul>
+                                <li><a href="..\Pages\Сайт с узором.Html">Сайт с узором</a></li>
+                                <li><a href="..\Pages\СайтСКнопками.html">Сайт с кнопками</a></li>
+                                <li><a href="..\Pages\СайтСПылесосом.html">Сайт с пылесосом</a></li>
+                                <li><a href="..\Pages\ГипертекстовыеСсылки.html">Гипертекстовые cсылки</a></li>
+                                <li><a href="..\Pages\СайтСКвадратами.html">Цветной Сайт</a></li>
+                                <li><a href="..\Pages\СайтСКвадратами2.html">Цветной Сайт 2</a></li>
+                                <li><a href="..\Pages\СайтСКвадратами3.html">Цветной Сайт 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+
+        <div class="All">
+            <div class="H2z">
+                <h2>Интернет-магазин</h2>
+            </div>
+            <div class="rectangle"></div>
+            <form action="..\Apache\Prices.php" method="POST">
+                <p style="font-size: 18px"> Выберите вещь чтобы узнать информацию о цене данного товара:</p>
+                <p> <input type="radio" name="tech" value = "TV" checked> Телевизор "Panasonic", 21</p>
+                <p> <input type="radio" name="tech" value = "Printer">Принтер "Laser Jet 6L"</p>
+                <p> <input type="radio" name="tech" value = "M_Center">Музыкальный центр "SONY", модель PS-407</p>
+                <p> <input type="radio" name="tech" value = "Mouse">Радио-мышь "Genius", одель R38</p>
+                <p> <input type="radio" name="tech" value = "Monitor">Монитор "LG Studio Works 78i"</p>
+            <div class="button_1">
+                <input class="btn-main" type="submit" value="Далее">
+                <a href="..\Apache\Apache.html" class="btn-main">Сброс</a>
+            </div>
+            </form>
+        </div>
+
+        <script src="../Pages/script.js"></script>
+</body>

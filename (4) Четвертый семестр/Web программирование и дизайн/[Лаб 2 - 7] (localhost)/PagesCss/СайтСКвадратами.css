@@ -1,0 +1,145 @@
+.All{
+    margin: 5% 0%;
+}
+.gray{
+    float: left;
+    background: #fe0202;
+    width: 70%;
+    height:60px;
+    }
+   .orange{
+    background: #FF8C00;
+    float: right ;
+    width: 30%;
+    overflow: auto;
+    height:60px;
+    }
+   .yellow{
+    
+    background: #1E90FF;
+    float: left;
+    width: 26%;
+    overflow: auto;
+    height:500px;
+    }
+   .orangeBlock{
+    position: absolute;
+    top: 150px;
+    right:30px;
+    width: 200px;
+    height: 50px;
+    background: #cc2d77;
+    }
+   .pinkBlock{
+    position: absolute;
+    top: 180px;
+    right: 110px;
+    width: 200px;
+    height: 50px;
+    background:#aaa2a6;
+    }
+    .orangeeBlock{
+        position: absolute;
+        top: 210px;
+        right:30px;
+        width: 200px;
+        height: 50px;
+        background: #FF8C00;
+        }
+      
+   .blue{
+    background: #FFFF00;
+    float: left;
+    width: 74%;
+    height:500px;
+    }
+   .green{
+    background: #008000;
+    float: left;
+    width: 100%;
+    overflow: auto;
+    height:50px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0px 5px 10px rgba(28, 86, 130, 0.13);
+    background: rgb(207 125 235);
+    padding: 0% 8%;
+}
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+.text_img:hover{
+    transform: scale(1.2);
+}
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+padding: 0 50px  20px 0 ;
+color: rgb(255, 255, 255);
+font-size: 17px;
+display: block;
+text-decoration: none;
+}
+header nav ul li a:hover {
+background-color: rgb(207 125 235);
+color: azure;
+
+text-decoration: none;
+}
+
+nav ul li ul {
+position: absolute;
+left: 0;
+width: 180px;
+background: rgb(207 125 235);
+display: none;
+}
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 5px 0px 0px 10px;
+}
+
+nav ul li ul li ul li {
+    left: 180px;
+    top: 0px;
+}
+
+nav ul li:hover > ul {
+    display: inline;
+}
+header nav ul li {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header nav ul li ul {
+    margin: 0%;
+    padding: 0%;
+    
+}

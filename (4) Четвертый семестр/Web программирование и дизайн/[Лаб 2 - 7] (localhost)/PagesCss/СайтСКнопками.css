@@ -1,0 +1,137 @@
+.square{
+    width: 150px;
+    margin: 5% 0%;
+}
+.button1{
+    font-size: 20px;
+    position: relative;
+    padding: 0% 0% ;
+    top: 40%;
+}
+.button2{
+    font-size: 20px;
+    position: relative;
+    padding: 0% 3% ;
+    top: 40%;
+}
+.button3{
+    font-size: 20px;
+    position: relative;
+    padding: 10% 30% ;
+    top: 40%;
+    text-decoration: none;
+}
+.circle{
+    width: 150px;
+    margin: 5% 45%;
+}
+.triangle-up{
+width: 300px;
+margin: 5% 18%;
+}
+
+
+
+.body-wraper{
+    display: flex;
+    flex-direction: column;
+    margin: 5% ;
+    padding: 0 25%;
+}
+.All{
+    display: flex;
+margin: 0% -15%;
+}
+.square1 {
+    width: 479px;
+    height: 479px;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle1 {
+    width: 360px;
+    height: 360px;
+    background-color: #fff200;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 30px;
+  }
+.header {
+    position: fixed;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0px 5px 10px rgba(28, 86, 130, 0.13);
+    background: rgb(207 125 235);
+    padding: 0% 8%;
+}
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+.text_img:hover{
+    transform: scale(1.2);
+}
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+padding: 0 50px  20px 0 ;
+color: rgb(255, 255, 255);
+font-size: 17px;
+display: block;
+text-decoration: none;
+}
+header nav ul li a:hover {
+background-color: rgb(207 125 235);
+color: azure;
+
+text-decoration: none;
+}
+
+nav ul li ul {
+position: absolute;
+left: 0;
+width: 180px;
+background: rgb(207 125 235);
+display: none;
+}
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 5px 0px 0px 10px;
+}
+
+nav ul li ul li ul li {
+    left: 180px;
+    top: 0px;
+}
+
+nav ul li:hover > ul {
+    display: inline;
+}
+header nav ul li {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header nav ul li ul {
+    margin: 0%;
+    padding: 0%;
+    
+}

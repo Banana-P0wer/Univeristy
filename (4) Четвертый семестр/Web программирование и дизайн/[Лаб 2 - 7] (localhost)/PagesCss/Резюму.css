@@ -1,0 +1,100 @@
+.body-wraper{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.header {
+    box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
+    background-color: rgb(240, 235, 227);
+}
+.All {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+.heder__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button_1{
+    margin-left: auto;
+}
+.header__burger-btn{
+    display: block; 
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    z-index: 2;
+}
+.header__burger-btn span{
+    display: block;
+    position:absolute;
+    width: 30px;
+    height: 3px;
+    left: 5px;
+    background-color: black;
+    transform: background-color .3s, opacity .3s, transform .5s;
+    will-change: transform;
+}
+
+.header__burger-btn:hover span{
+background-color: rgb(91, 89, 89);
+}
+
+.header__burger-btn span:nth-child(1){
+    transform: translateY(-10px);
+}
+.header__burger-btn span:nth-child(3){
+    transform: translateY(10px);
+}
+
+
+.header.open .header__burger-btn span{
+background-color: white;
+}
+.header.open .header__burger-btn span:nth-child(1){
+    transform: translateY(0) rotate(45deg);
+}
+
+.header.open .header__burger-btn span:nth-child(2){
+    opacity: 0;
+}
+.header.open .header__burger-btn span:nth-child(3){
+    transform: translateY(0) rotate(-45deg);
+}
+
+
+.menu__link{
+    font-size: 21px;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    padding: 10px;
+}
+
+.menu{
+    position: absolute;
+    background-color: rgb(170, 218, 239);
+    right: -350px;
+    top: 0%;
+    width: 350px;
+    padding: 75px 20px 20px 20px;
+    visibility: hidden;
+    transition: transform .5s, visibility .5s;
+}
+
+.header.open .menu{
+    transform: translateX(-100%);
+    visibility: visible;
+}
+.dan{
+    margin: 20% 0%;
+}
+.foto{
+    margin: 0% 10%;
+}

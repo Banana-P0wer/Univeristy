@@ -1,0 +1,27 @@
+.Text{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 500%;
+    color: azure;
+    display: block;
+}
+#rectangle {
+    width:30%;
+    height: 10%;
+    background: #264254;
+    margin: -2% auto;
+    display: flexbox;
+}
+.text{
+    color: antiquewhite;
+}
+.Text1{
+    margin: 0% auto;
+    padding: 0 3%  ;
+}
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+.text_img:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,128 @@
+.body-wraper{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.header {
+    box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
+    background-color: rgb(240, 235, 227);
+    padding: 5px;
+}
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.All{
+    display: column;
+    align-items: center;
+    margin: 0% auto;
+}
+.table1{
+ width: 160px;
+border: 1px solid #000;
+margin: auto;
+
+}
+th, td {
+    border: 1px solid grey;
+ }
+
+
+
+
+.tabs__item{
+    flex: 0 1 33.333%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #351818;
+    text-decoration: none;
+}
+.tabs__item span{
+position: relative;
+z-index: 2;
+}
+.tabs__items{
+    display: flex;
+}
+.tabs__block{
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    display: none;
+}
+.tabs__block:before{
+    position: absolute;
+    height: 50px;
+   content: ""; 
+	width: 33.333%;
+   top: -50px ;
+}
+.tabs__block:nth-child(1){
+    background-color: #00b7ff;
+}
+.tabs__block:nth-child(1):before{
+    background-color: #00b7ff;
+    left: 0%;
+    border-radius: 90% 90% 0% 0% ;
+    clip-path: polygon(10% 15%, 90% 15%, 100% 100%, 0% 100%);
+}
+
+.tabs__block:nth-child(3){
+    background-color: rgb(236, 19, 167);
+
+}
+.tabs__block:nth-child(3):before{
+    background-color: rgb(236, 19, 167);
+    left: 33%;
+    border-radius: 90% 90% 0% 0% ;
+    clip-path: polygon(10% 15%, 90% 15%, 100% 100%, 0% 100%);
+    
+}
+
+
+.tabs__block:target{
+    display: block;
+}
+
+
+
+.body-wraper{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.header {
+    box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
+    background-color: rgb(240, 235, 227);
+    padding: 5px;
+}
+
+.All {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    
+}
+.table1{
+    width: 480px;
+    background: rgb(216, 243, 161);
+}
+
+
+
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+.text_img:hover{
+    transform: scale(1.2);
+}
+.menu__link{
+    padding:  0 0 0 15% ;
+}

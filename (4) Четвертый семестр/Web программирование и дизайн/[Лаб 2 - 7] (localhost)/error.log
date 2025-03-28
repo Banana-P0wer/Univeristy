@@ -1,0 +1,20 @@
+[Fri Oct 13 05:39:58.714656 2023] [core:warn] [pid 4696:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 13 05:39:58.762020 2023] [mpm_winnt:notice] [pid 4696:tid 424] AH00455: Apache/2.4.57 (Win64) PHP/8.2.11 configured -- resuming normal operations
+[Fri Oct 13 05:39:58.762020 2023] [mpm_winnt:notice] [pid 4696:tid 424] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Oct 13 05:39:58.762020 2023] [core:notice] [pid 4696:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 13 05:39:58.762020 2023] [mpm_winnt:notice] [pid 4696:tid 424] AH00418: Parent: Created child process 2200
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 2200:tid 452] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 13 05:50:47.252555 2023] [php:error] [pid 2200:tid 2020] [client ::1:50884] script 'C:/localhost/Prices.php' not found or unable to stat, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:51:26.604683 2023] [php:error] [pid 2200:tid 2020] [client ::1:50913] script 'C:/localhost/Prices.php' not found or unable to stat, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:51:32.397358 2023] [php:warn] [pid 2200:tid 2020] [client ::1:50913] PHP Warning:  Undefined array key "TV" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:51:57.775602 2023] [php:warn] [pid 2200:tid 2044] [client ::1:50931] PHP Warning:  Undefined array key "TV" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:51:58.760628 2023] [php:warn] [pid 2200:tid 2044] [client ::1:50931] PHP Warning:  Undefined array key "TV" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:51:59.304347 2023] [php:warn] [pid 2200:tid 2044] [client ::1:50931] PHP Warning:  Undefined array key "TV" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:52:01.264548 2023] [php:warn] [pid 2200:tid 2032] [client ::1:50935] PHP Warning:  Undefined array key "TV" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:52:23.191960 2023] [php:warn] [pid 2200:tid 2044] [client ::1:50947] PHP Warning:  Undefined array key "on" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:54:35.394420 2023] [php:warn] [pid 2200:tid 2044] [client ::1:51007] PHP Warning:  Undefined array key "on" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 05:54:37.781246 2023] [php:warn] [pid 2200:tid 2044] [client ::1:51007] PHP Warning:  Undefined array key "TV" in C:\\localhost\\Apache\\Prices.php on line 33, referer: http://localhost/Apache/Apache.html
+[Fri Oct 13 06:57:13.887504 2023] [mpm_winnt:notice] [pid 4696:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 13 06:57:15.918642 2023] [mpm_winnt:notice] [pid 2200:tid 452] AH00364: Child: All worker threads have exited.
+[Fri Oct 13 14:37:05.915566 2023] [mpm_winnt:notice] [pid 4696:tid 424] AH00430: Parent: Child process 2200 exited successfully.

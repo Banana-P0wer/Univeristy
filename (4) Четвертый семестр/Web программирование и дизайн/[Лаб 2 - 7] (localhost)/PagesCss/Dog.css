@@ -1,0 +1,95 @@
+.body-wraper{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.header {
+    box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
+    background-color: rgb(240, 235, 227);
+    padding: 5px;
+}
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+.All {
+    max-width: 1200px;
+    margin: 5% auto;
+    padding: 10px 15px;
+    
+}
+.table1{
+    background: rgb(243, 243, 161);
+}
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0px 5px 10px rgba(28, 86, 130, 0.13);
+    background: rgb(207 125 235);
+    padding: 0% 8%;
+}
+.text_img{
+    width: 40px;
+    height: 40px;
+}
+.text_img:hover{
+    transform: scale(1.2);
+}
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+padding: 0 50px  20px 0 ;
+color: rgb(255, 255, 255);
+font-size: 17px;
+display: block;
+text-decoration: none;
+}
+header nav ul li a:hover {
+background-color: rgb(207 125 235);
+color: azure;
+
+text-decoration: none;
+}
+
+nav ul li ul {
+position: absolute;
+left: 0;
+width: 180px;
+background: rgb(207 125 235);
+display: none;
+}
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 5px 0px 0px 10px;
+}
+
+nav ul li ul li ul li {
+    left: 180px;
+    top: 0px;
+}
+
+nav ul li:hover > ul {
+    display: inline;
+}
+header nav ul li {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header nav ul li ul {
+    margin: 0%;
+    padding: 0%;
+    
+}
